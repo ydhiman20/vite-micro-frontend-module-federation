@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tailwind-like utility classes */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f3f4f6; /* Light gray background */
+  border-bottom: 1px solid #e5e7eb; /* Gray border */
+}
+
+.app-content {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  gap: 1rem; /* Space between sections */
+}
+
+.micro-frontend {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #e5e7eb; /* Gray border */
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+}
+
+/* Additional utility classes */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
