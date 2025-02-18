@@ -8,8 +8,8 @@ export default defineConfig({
     federation({
       name: "root",
       remotes: {
-        siteone: "http://localhost:5001/assets/remoteEntry.js",
-        sitetwo: "http://localhost:5002/assets/remoteEntry.js",
+        siteone: "https://siteone-one.vercel.app/assets/remoteEntry.js",
+        sitetwo: "https://sitetwo-nine.vercel.app/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
